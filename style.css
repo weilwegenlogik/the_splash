@@ -1,0 +1,257 @@
+*,
+*::before,
+*::after{box-sizing: border-box;}
+.container{
+   width: 100%;
+   height: auto;
+   background:hsl(0, 0%, 11%);
+}
+
+body {
+   margin: 0px !important;
+   padding: 0px !important;
+   background-color: hsl(0, 0%, 11%);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   width: 100% !important;
+   overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar-flex {
+   display: flex !important;
+   justify-content: center !important;
+   flex-flow: row-reverse nowrap !important;
+}
+
+.navbar {
+   list-style-type: none;
+   margin: 20px;
+   margin-right: 20px !important;
+   padding: 15px;
+   background-color: hsl(345.7,100%,91%);
+   width: 95% !important;
+   border-radius: 50px;
+   position: fixed;
+}
+
+.navbar ul {
+   width: 100% !important;
+   margin: 0 !important;
+}
+
+.navbar li {
+   display: inline;
+   color: hsl(0, 0%, 100%);
+   padding: 10px;
+
+}
+
+.navbar a {
+   color: hsl(0, 0%, 0%);
+   padding: 5px;
+   text-decoration: none;
+   font-family: 'Bebas Neue', sans-serif !important;
+   font-size: 28px;
+   transition: 0.3s;
+
+}
+
+.navbar a:hover {
+   color: hsl(0, 0%, 100%);
+   background-color: hsl(0, 0%, 11%);
+   padding: 10px;
+   text-align: center;
+   top: 50%;
+   font-size: 35px;
+}
+
+.navbar img {
+   width: 75px !important;
+   height: 36px !important;
+   padding: 0px;
+}
+
+/*
+END OF NAVBAR
+START OF FLEXBOX
+ */
+
+.flexbox-ltr {
+   display: flex;
+   flex-direction: row;
+   padding: 20px;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+   align-content: center;
+   height: 3500px;
+   width: 100%;
+   gap: 5%;
+   align-items: flex-start;
+}
+
+.flexbox-ttbl {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   width: 50%;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+
+}
+
+.flexbox-ttbr {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   width: 50%;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+}
+
+/*
+END OF FLEXBOX
+START OF INTRO
+ */
+
+.introduction {
+   padding-top: 9% !important;
+}
+
+header {
+   padding: 2.5%;
+}
+
+main {
+   padding: 2.5%;
+}
+
+.img-s {
+   width: 100%;
+   aspect-ratio: inherit;
+}
+
+h1 {
+   color: hsl(345.7,100%,91%);
+   font-family: 'Lilita One', sans-serif !important;
+}
+
+h2 {
+   color: hsl(345.7,100%,91%);
+}
+
+h3 {
+   color: hsl(345.7,100%,91%);
+}
+
+p {
+   color: hsl(0, 0%, 100%);
+   width: 500px;
+}
+
+li {
+   color: hsl(0, 0%, 100%);
+}
+
+a {
+   color: hsl(345.7,100%,91%);
+   text-decoration: none;
+}
+
+
+/*
+#TheSplash {
+   position: relative;
+   top: 230px;
+   bottom: 100px;
+   left: 675px;
+}
+
+img[src="Bilder/Lineup.jpeg"] {
+   width: 360px;
+   height: auto;
+   position: absolute;
+   top: 300px;
+   bottom: 100px;
+   left: 80px;
+
+}
+
+img[src="Bilder/LilUziVert.jpg"] {
+   width: 600px;
+   height: auto;
+   position: relative;
+   top: 10px;
+   bottom: 100px;
+}
+
+img[src="Bilder/Kendrick.jpg"] {
+   width: 600px;
+   height: auto;
+   position: relative;
+   float: right;
+   margin-bottom: 30px;
+}
+
+#KendrickLamar {
+   position: relative;
+   float: right;
+}
+
+img[src="Bilder/Haftbefehl.jpg"] {
+   width: 600px;
+   height: auto;
+}
+
+img[src="Bilder/UFO361.jpg"] {
+   width: 600px;
+   height: auto;
+}
+*/
+
+table {
+   font-size: 17px;
+   color: hsl(0, 0%, 100%);
+}
+
+/*
+
+#Gewinnspiel {
+   position: relative;
+   float: right;
+   top: -200px;
+   width: 600px;
+}
+*/
+
+/*formulare*/
+fieldset {
+   background-color: hsl(0, 0%, 100%);
+}
+
+legend {
+   background-color: hsl(0, 0%, 100%);
+}
+
+img[src="Bilder/Gewinnspiel.jpg"] {
+   width: 600px;
+   height: auto;
+}
+
+img[src="Bilder/VielGlück.jpg"] {
+   width: 600px;
+   height: auto;
+}
+input[type="submit"],input[type="reset"]{
+   background-color: hsl(174, 72%, 56%);  
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+   background-color: hsl(240, 100%, 50%);  
+}
+
+input:valid {
+   color: hsl(120, 100%, 25%);
+}
+
+input:invalid {
+   color: hsl(0, 100%, 50%);
+}
